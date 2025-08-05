@@ -37,18 +37,30 @@
   
   
         <!-- Botón -->
-        <div class="col-span-1 md:col-span-2 text-center">
-          <button type="button" id="editarBtn" class="bg-[#6964F1] text-white text-xl font-semibold px-20 sm:px-40 py-3 rounded-lg hover:bg-blue-700 transition">Edit</button>
-           <button type="submit" id="guardarBtn" class="bg-[#6964F1] text-white text-xl font-semibold px-20 sm:px-40 py-3 rounded-lg hover:bg-blue-700 transition">Guardar cambios</button>
-        </div>
+       <div class="col-span-1 md:col-span-2">
+  <div class="flex flex-col sm:flex-row justify-center items-center gap-4 sm:gap-6 mt-6">
+    <!-- Botón Editar -->
+    <button type="button" id="editarBtn"
+      class="bg-indigo-600 hover:bg-indigo-700 text-white text-lg sm:text-xl font-semibold px-8 sm:px-12 py-3 rounded-xl transition duration-300 shadow-md">
+      Editar
+    </button>
+
+    <!-- Botón Guardar -->
+    <button type="submit" id="guardarBtn"
+      class="bg-green-600 hover:bg-green-700 text-white text-lg sm:text-xl font-semibold px-8 sm:px-12 py-3 rounded-xl transition duration-300 shadow-md">
+      Guardar cambios
+    </button>
+
+    <!-- Botón Volver -->
+    <button type="button" id="volverMenuBtn"
+      class="bg-gray-500 hover:bg-gray-700 text-white text-lg sm:text-xl font-semibold px-8 sm:px-12 py-3 rounded-xl transition duration-300 shadow-md">
+      Volver al Menú
+    </button>
+  </div>
+</div>
         
       </form>
-    </div>
-   <div class="col-span-1 md:col-span-2 text-center mt-4">
-  <button id="volverMenuBtn" class="bg-gray-500 text-white text-xl font-semibold px-20 sm:px-40 py-3 rounded-lg hover:bg-gray-700 transition">
-    Volver al Menú
-  </button>
-</div>
+  
   </section>
 
   <script src="./profile.js"></script>

@@ -7,17 +7,17 @@
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   </head>
   <body>
-    <nav class="flex justify-center space-x-4 mt-4">
-      <a href="#" onclick="cerrarSesion()" class="text-red-500 underline">Logout</a>
-      <a href="register.html" class="text-blue-600 hover:underline">Register</a>
-      <button  id="btnPerfil" class="text-blue-600 hover:underline">Profile</button>
+    <nav class=" bg-gray-800 p-4 flex justify-center space-x-4">
+      <a href="#" onclick="cerrarSesion()" class="text-red-600 font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-red-400">Logout</a>
+  <a href="favorite.html" class="text-green-600 font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-green-400">Favoritos</a>
+  <button id="btnPerfil" class="text-blue-600 font-medium hover:underline focus:outline-none focus:ring-2 focus:ring-blue-400">Profile</button>
     </nav>
     <header>
       <h1 class="text-3xl font-bold text-center mt-8">Personajes de Rick y Morty</h1>
     </header>
     
     <div id="personajes" class="grid grid-cols-1 md:grid-cols-4 gap-4 p-4">
-       </div>
+      </div>
 
       
     <button onclick="mostrarVentanaFavoritos()" class="fixed bottom-4 right-4 bg-green-600 text-white px-4 py-2 rounded-full shadow-lg hover:bg-green-800 z-50">
@@ -36,7 +36,7 @@
     </div>
     <footer>
       <div class="bg-gray-800 p-4 text-white text-center">
-        <p>&copy; 2023 Rick and Morty. Todos los derechos reservados.</p>
+        <p>&copy; 2025 Rick and Morty. Todos los derechos reservados.</p>
         <p>Desarrollado por: Hector Jimenez</p>
       </div>
     </footer>
